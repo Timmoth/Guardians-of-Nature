@@ -1,0 +1,228 @@
+/* A quieter, more practical layer over the utility styles. */
+:root {
+  color-scheme: light;
+  scroll-padding-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+.font-sans {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  letter-spacing: 0.002em;
+}
+
+.font-display,
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif !important;
+  letter-spacing: -0.025em;
+}
+
+a,
+button,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #9db08a;
+  outline-offset: 3px;
+}
+
+header {
+  background-color: rgba(250, 246, 239, 0.97) !important;
+  backdrop-filter: blur(10px);
+}
+
+header nav {
+  min-height: 4.5rem;
+}
+
+header nav > a {
+  min-width: 0;
+}
+
+header nav img {
+  flex: 0 0 auto;
+}
+
+#menuBtn {
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 0.25rem !important;
+}
+
+#menuBtn .menu-icon-close {
+  display: none;
+}
+
+#menuBtn[aria-expanded="true"] .menu-icon-open {
+  display: none;
+}
+
+#menuBtn[aria-expanded="true"] .menu-icon-close {
+  display: block;
+}
+
+#mobileMenu a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+#mobileMenu a:last-child {
+  justify-content: center;
+}
+
+.font-display {
+  font-weight: 500;
+}
+
+.shadow-soft,
+.shadow-lift {
+  box-shadow: 0 1px 2px rgba(39, 64, 47, 0.08) !important;
+}
+
+/* Keep surfaces calm and let photographs and content carry the page. */
+.bg-white.rounded-3xl,
+.bg-white.rounded-\[1\.75rem\],
+article.bg-white,
+figure.bg-white,
+section > div > .bg-white.rounded-\[1\.75rem\],
+.bg-pine\/60.rounded-3xl {
+  border-radius: 0.75rem !important;
+  box-shadow: 0 1px 2px rgba(39, 64, 47, 0.08) !important;
+}
+
+article.bg-white:hover {
+  box-shadow: 0 4px 14px rgba(39, 64, 47, 0.1) !important;
+}
+
+article img.group-hover\:scale-105,
+.gallery-item img.group-hover\:scale-105 {
+  transition-duration: 250ms !important;
+}
+
+.relative > .absolute.-inset-3 {
+  display: none;
+}
+
+a.rounded-full:not(.w-11):not(.w-12),
+button.rounded-full:not(.w-11):not(.w-12) {
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+}
+
+article > div:first-child {
+  overflow: hidden;
+}
+
+article img {
+  transition: transform 250ms ease !important;
+}
+
+@media (hover: none) {
+  article img.group-hover\:scale-105,
+  .gallery-item img.group-hover\:scale-105 {
+    transform: none !important;
+  }
+}
+
+input,
+textarea {
+  font: inherit;
+}
+
+@media (max-width: 767px) {
+  section.max-w-6xl.mx-auto.px-5.py-20,
+  section.max-w-6xl.mx-auto.px-5.py-20.md\:py-28,
+  section.max-w-6xl.mx-auto.px-5.py-20.md\:py-24 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  section.max-w-6xl.mx-auto.px-5.py-16 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  section.relative > .relative.max-w-6xl {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+
+  h1.text-5xl,
+  h1.text-4xl {
+    font-size: clamp(2.5rem, 11vw, 3.5rem) !important;
+    line-height: 1.06 !important;
+  }
+
+  h2.text-4xl {
+    font-size: 2rem !important;
+    line-height: 1.15 !important;
+  }
+
+  section.max-w-6xl.mx-auto.px-5.-mt-10 {
+    margin-top: -1rem !important;
+  }
+
+  section.max-w-6xl.mx-auto.px-5.-mt-10 .bg-white {
+    padding: 1.5rem !important;
+  }
+
+  section.bg-forest.py-20 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .grid.md\:grid-cols-2,
+  .grid.lg\:grid-cols-2 {
+    row-gap: 2rem;
+  }
+
+  .rounded-\[2rem\],
+  .rounded-\[1\.75rem\],
+  .rounded-3xl {
+    border-radius: 0.75rem !important;
+  }
+
+  footer > div:first-child {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #lightbox {
+    padding: 4.5rem 1rem 5.5rem !important;
+  }
+
+  #lightbox figure img {
+    max-height: 68vh !important;
+  }
+
+  #lbPrev,
+  #lbNext {
+    top: auto !important;
+    bottom: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

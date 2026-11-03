@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guardians of Nature | Gardening &amp; Wellbeing in Penwortham</title>
+<meta name="description" content="A Penwortham community group using gardening and nature to support wellbeing, restore green spaces and bring people together across South Ribble.">
+<link rel="canonical" href="https://guardiansofnature.co.uk/">
+<meta name="theme-color" content="#FAF6EF">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Guardians of Nature">
+<meta property="og:title" content="Guardians of Nature | Together We Grow">
+<meta property="og:description" content="We use nature to support wellbeing, bring people together and care for green spaces across Penwortham and South Ribble.">
+<meta property="og:url" content="https://guardiansofnature.co.uk/">
+<meta property="og:image" content="https://guardiansofnature.co.uk/assets/img/hero-banner.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1280">
+<meta property="og:image:alt" content="Volunteers working together in a green community space in Penwortham">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Guardians of Nature | Together We Grow">
+<meta name="twitter:description" content="We use nature to support wellbeing, bring people together and care for green spaces across Penwortham and South Ribble.">
+<meta name="twitter:image" content="https://guardiansofnature.co.uk/assets/img/hero-banner.jpg">
+<meta name="twitter:image:alt" content="Volunteers working together in a green community space in Penwortham">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Guardians of Nature",
+  "url": "https://guardiansofnature.co.uk/",
+  "logo": "https://guardiansofnature.co.uk/assets/img/logo.png",
+  "description": "A not-for-profit community interest company using nature-based activities to support mental health, build community and care for green spaces across Penwortham and South Ribble.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "UK Companies House registration number",
+    "value": "14334864"
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Penwortham" },
+    { "@type": "AdministrativeArea", "name": "South Ribble" }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/guardiansofnaturehq/",
+    "https://www.instagram.com/guardiansofnaturehq/"
+  ]
+}
+</script>
+<link rel="icon" type="image/png" href="assets/img/logo.png">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        cream: '#FAF6EF',
+        sand:  '#EFE6D6',
+        bark:  '#33302A',
+        forest:'#27402F',
+        pine:  '#33513D',
+        moss:  '#5F7A55',
+        sage:  '#9DB08A',
+        clay:  '#BC5B34',
+        clayd: '#9E4A28',
+        sun:   '#DFA14E'
+      },
+      fontFamily: {
+        display: ['Georgia', 'serif'],
+        sans: ['system-ui', 'sans-serif']
+      }
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-cream text-bark font-sans antialiased selection:bg-sage/40">
+
+<header class="sticky top-0 z-40 bg-cream/90 backdrop-blur border-b border-sand">
+  <nav class="max-w-6xl mx-auto px-5 flex items-center justify-between" style="height:4.5rem">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/img/logo.png" alt="Guardians of Nature logo" class="h-11 w-auto">
+      <span class="leading-tight">
+        <span class="block font-display font-semibold text-forest text-lg">Guardians of Nature</span>
+        <span class="block text-[11px] uppercase tracking-[0.18em] text-moss font-bold">Together we grow</span>
+      </span>
+    </a>
+    <div class="hidden md:flex items-center gap-8 text-[15px] font-bold">
+      <a href="index.html" class="text-clay">Home</a>
+      <a href="index.html#projects" class="hover:text-forest transition">Our Projects</a>
+      <a href="join.html" class="hover:text-forest transition">Get Involved</a>
+      <a href="gallery.html" class="hover:text-forest transition">Gallery</a>
+      <a href="contact.html" class="hover:text-forest transition">Contact</a>
+      <a href="join.html" class="bg-clay hover:bg-clayd text-white px-5 py-2.5 rounded-full shadow-soft transition">Volunteer</a>
+    </div>
+    <button id="menuBtn" class="md:hidden p-2 -mr-2" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+      <svg class="w-7 h-7 text-forest" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path class="menu-icon-open" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-icon-close" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </nav>
+  <div id="mobileMenu" class="md:hidden hidden border-t border-sand bg-cream">
+    <div class="px-5 py-4 flex flex-col gap-3 text-[15px] font-bold">
+      <a href="index.html" class="text-clay">Home</a>
+      <a href="index.html#projects" class="hover:text-forest">Our Projects</a>
+      <a href="join.html" class="hover:text-forest">Get Involved</a>
+      <a href="gallery.html" class="hover:text-forest">Gallery</a>
+      <a href="contact.html" class="hover:text-forest">Contact</a>
+      <a href="join.html" class="bg-clay text-white text-center px-5 py-3 rounded-full">Volunteer</a>
+    </div>
+  </div>
+</header>
+
+<section class="relative">
+  <div class="absolute inset-0">
+    <img src="assets/img/hero-banner.jpg" alt="Volunteers working together in a green space" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-forest/90 via-forest/55 to-forest/30"></div>
+  </div>
+  <div class="relative max-w-6xl mx-auto px-5 py-28 md:py-40">
+    <h1 class="font-display text-cream text-5xl md:text-7xl font-semibold leading-[1.02] max-w-3xl">
+      Together, we&nbsp;grow.
+    </h1>
+    <p class="mt-6 text-cream/90 text-lg md:text-xl max-w-2xl leading-relaxed">
+      We are a community in Penwortham &amp; South Ribble using nature to heal, connect and create
+      lasting friendships — one garden, one litter pick, one seed at a time.
+    </p>
+    <div class="mt-9 flex flex-wrap gap-4">
+      <a href="join.html" class="bg-clay hover:bg-clayd text-white font-bold px-7 py-3.5 rounded-full shadow-lift transition">Become a volunteer</a>
+      <a href="#projects" class="bg-cream/10 hover:bg-cream/20 text-cream border border-cream/40 font-bold px-7 py-3.5 rounded-full backdrop-blur transition">See what we do</a>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+  <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+    <div class="relative">
+      <div class="absolute -inset-3 bg-sage/30 rounded-[2rem] rotate-1"></div>
+      <img src="assets/img/crew.jpg" alt="The Guardians of Nature crew out in the garden" class="relative rounded-[1.75rem] shadow-lift w-full object-cover aspect-[4/3]">
+    </div>
+    <div>
+      <p class="text-clay font-extrabold uppercase tracking-[0.16em] text-sm">Who we are</p>
+      <h2 class="mt-3 font-display text-forest text-4xl md:text-5xl font-semibold leading-tight">
+        Nature is our greatest therapist.
+      </h2>
+      <p class="mt-6 text-bark/80 text-lg leading-relaxed">
+        We are a registered not-for-profit community interest company, dedicated to positive mental
+        health and creating lasting friendships through nature-based activities across Penwortham and
+        South Ribble. Our volunteers work together to support each other and preserve our green spaces.
+      </p>
+      <p class="mt-4 text-bark/80 text-lg leading-relaxed">
+        We celebrate neurodiversity and welcome people navigating anxiety, PTSD, grief and loneliness.
+        This is a safe space to use nature to heal, learn and make friends — young or old, and families
+        are always welcome.
+      </p>
+      <div class="mt-8 grid grid-cols-3 gap-4">
+        <div class="bg-sand rounded-2xl p-4 text-center">
+          <p class="font-display text-forest text-3xl font-semibold">6</p>
+          <p class="text-xs font-bold text-bark/60 mt-1">Local projects</p>
+        </div>
+        <div class="bg-sand rounded-2xl p-4 text-center">
+          <p class="font-display text-forest text-3xl font-semibold">4</p>
+          <p class="text-xs font-bold text-bark/60 mt-1">Pathway steps</p>
+        </div>
+        <div class="bg-sand rounded-2xl p-4 text-center">
+          <p class="font-display text-forest text-3xl font-semibold">All</p>
+          <p class="text-xs font-bold text-bark/60 mt-1">Welcome</p>
+        </div>
+      </div>
+      <a href="assets/docs/backstory.pdf" target="_blank" rel="noopener" class="mt-8 inline-flex items-center gap-2 font-bold text-forest hover:text-clay transition">
+        Read our story
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-forest text-cream py-20 md:py-28">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="max-w-2xl">
+      <p class="text-sun font-extrabold uppercase tracking-[0.16em] text-sm">What we do</p>
+      <h2 class="mt-3 font-display text-4xl md:text-5xl font-semibold leading-tight">Healing, growing &amp; giving back</h2>
+      <p class="mt-5 text-cream/75 text-lg leading-relaxed">
+        From regenerating allotments to leading litter picks, every activity helps our people, our
+        wildlife and our community grow. Here is a taste of what happens when we get our hands dirty.
+      </p>
+    </div>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-pine/60 border border-cream/10 rounded-3xl p-7">
+        <div class="w-12 h-12 rounded-2xl bg-sage/25 flex items-center justify-center">
+          <svg class="w-6 h-6 text-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8m0 0c-3 0-5-2-5-5 3 0 5 2 5 5zm0 0c3 0 5-2 5-5-3 0-5 2-5 5zM12 13V3m0 0c-2 2-2 4 0 6 2-2 2-4 0-6z"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-2xl font-semibold">Grow your own</h3>
+        <p class="mt-3 text-cream/75 leading-relaxed">We plant and harvest produce, raise seedlings, share plants and teach the community where food comes from.</p>
+      </div>
+      <div class="bg-pine/60 border border-cream/10 rounded-3xl p-7">
+        <div class="w-12 h-12 rounded-2xl bg-sage/25 flex items-center justify-center">
+          <svg class="w-6 h-6 text-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21c-4-3.5-7-6.5-7-10a7 7 0 0114 0c0 3.5-3 6.5-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-2xl font-semibold">Restore our spaces</h3>
+        <p class="mt-3 text-cream/75 leading-relaxed">We bring disused land back to life — woodland, gardens and wildflower areas that support local wildlife.</p>
+      </div>
+      <div class="bg-pine/60 border border-cream/10 rounded-3xl p-7">
+        <div class="w-12 h-12 rounded-2xl bg-sage/25 flex items-center justify-center">
+          <svg class="w-6 h-6 text-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l2 6 4-14 2 8h6"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-2xl font-semibold">Support mental health</h3>
+        <p class="mt-3 text-cream/75 leading-relaxed">Gardening is our therapy. We build confidence, purpose and connection in a calm, judgement-free setting.</p>
+      </div>
+      <div class="bg-pine/60 border border-cream/10 rounded-3xl p-7">
+        <div class="w-12 h-12 rounded-2xl bg-sage/25 flex items-center justify-center">
+          <svg class="w-6 h-6 text-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-2xl font-semibold">Teach &amp; learn</h3>
+        <p class="mt-3 text-cream/75 leading-relaxed">Workshops, forest school and a volunteer pathway with real skills and accredited courses when you are ready.</p>
+      </div>
+      <div class="bg-pine/60 border border-cream/10 rounded-3xl p-7">
+        <div class="w-12 h-12 rounded-2xl bg-sage/25 flex items-center justify-center">
+          <svg class="w-6 h-6 text-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-1.13a4 4 0 10-4-4 4 4 0 004 4zm6-4a3 3 0 10-3-3"/></svg>
+        </div>
+        <h3 class="mt-5 font-display text-2xl font-semibold">Build community</h3>
+        <p class="mt-3 text-cream/75 leading-relaxed">Friendly, relaxed and inclusive — most of our best friendships started out here.</p>
+      </div>
+      <a href="join.html" class="bg-sun hover:bg-clay text-bark hover:text-white rounded-3xl p-7 flex flex-col justify-center transition group">
+        <h3 class="font-display text-2xl font-semibold">Come join us</h3>
+        <p class="mt-3 text-bark/70 group-hover:text-white/85 leading-relaxed">Open sessions every week — bring your wellies and your curiosity.</p>
+        <span class="mt-5 inline-flex items-center gap-2 font-bold">
+          Get involved
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="max-w-6xl mx-auto px-5 py-20 md:py-28">
+  <div class="flex flex-wrap items-end justify-between gap-6">
+    <div class="max-w-2xl">
+      <p class="text-clay font-extrabold uppercase tracking-[0.16em] text-sm">Our projects</p>
+      <h2 class="mt-3 font-display text-forest text-4xl md:text-5xl font-semibold leading-tight">Rooted in the community</h2>
+    </div>
+    <a href="gallery.html" class="font-bold text-forest hover:text-clay inline-flex items-center gap-2">View the gallery
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+    </a>
+  </div>
+  <div class="mt-12 grid md:grid-cols-2 gap-7">
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/activities.jpg" alt="Volunteers at Alderfield Allotment" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">Alderfield Allotment</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">Our home base in Penwortham. Together we have regenerated this disused allotment, growing food, teaching local residents and youth where produce comes from, and creating a real sense of community spirit.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Alderfield, Penwortham · PR1 9HA</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/education-hut.jpg" alt="Inside the education hut at the Woodland Nursery" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">Woodland Nursery</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">With funding we built an education hut and a large polytunnel — an inclusive space for horticultural and conservation activities, partnered with Lancashire Adult Learning for courses and workshops. The Greencroft Valley woodlands next door are perfect for forest school.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Alderfield, Penwortham</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/waste-warriors.jpg" alt="The Waste Warriors picking litter" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">Waste Warriors</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">Two teams of adults and youth meet regularly to clean up our streets and green spaces, looking after our wildlife and our neighbourhood. A lovely way to meet the team and get out in the fresh air.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Across Penwortham &amp; South Ribble</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/mini-waste-warriors.jpg" alt="The Mini Waste Warriors at a children's litter pick" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">Mini Waste Warriors</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">Born when a child on our estate asked to start a litter pick for kids. Now a regular monthly afternoon where local children learn to keep our green spaces tidy, spot plants and little critters, and help our wildlife.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Last Thursday of each month · 4:30pm</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/white-ribbon-garden.jpg" alt="The White Ribbon Garden at Kingsfold" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">White Ribbon Garden</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">We are proud to maintain this garden of reflection at Kingsfold, supporting the White Ribbon Charity's aim to end violence against women and girls. White flowers, trees and shrubs carry a message of hope and change.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Kingsfold, Penwortham</p>
+      </div>
+    </article>
+    <article class="bg-white rounded-[1.75rem] overflow-hidden shadow-soft hover:shadow-lift transition group">
+      <div class="overflow-hidden">
+        <img src="assets/img/green-croft-valley.jpg" alt="The wishing tree at Green Croft Valley" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+      </div>
+      <div class="p-7">
+        <h3 class="font-display text-2xl font-semibold text-forest">Green Croft Valley</h3>
+        <p class="mt-3 text-bark/75 leading-relaxed">A special link to our home woodland and its wishing tree. Trusted by South Ribble Borough Council to care for the area, we build bird and bat boxes, wildlife piles, and use the space to educate about local wildlife.</p>
+        <p class="mt-4 text-sm font-bold text-moss">Green Croft Valley, Penwortham</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="bg-sand/60 py-20 md:py-28">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="text-center max-w-2xl mx-auto">
+      <p class="text-clay font-extrabold uppercase tracking-[0.16em] text-sm">In their words</p>
+      <h2 class="mt-3 font-display text-forest text-4xl md:text-5xl font-semibold leading-tight">Why people stay</h2>
+    </div>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <figure class="bg-white rounded-3xl p-7 shadow-soft">
+        <div class="text-sun text-5xl font-display leading-none">&ldquo;</div>
+        <blockquote class="text-bark/80 leading-relaxed -mt-3">My mental health and well-being have improved massively by being part of Guardians of Nature. I have found purpose, I have found friendship, and I have found nature.</blockquote>
+        <figcaption class="mt-5 font-bold text-forest">Jeff</figcaption>
+      </figure>
+      <figure class="bg-white rounded-3xl p-7 shadow-soft">
+        <div class="text-sun text-5xl font-display leading-none">&ldquo;</div>
+        <blockquote class="text-bark/80 leading-relaxed -mt-3">Volunteering here has helped me meet new people, gain confidence and learn new skills with plants. Most of my best friends are people I have met through volunteering.</blockquote>
+        <figcaption class="mt-5 font-bold text-forest">Anonymous</figcaption>
+      </figure>
+      <figure class="bg-white rounded-3xl p-7 shadow-soft">
+        <div class="text-sun text-5xl font-display leading-none">&ldquo;</div>
+        <blockquote class="text-bark/80 leading-relaxed -mt-3">Of every organisation I have volunteered with, this is the only one that offers all five ways to well-being — and a sixth: purpose.</blockquote>
+        <figcaption class="mt-5 font-bold text-forest">Anonymous</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-5 py-20 md:py-24">
+  <div class="bg-forest rounded-[2rem] overflow-hidden grid md:grid-cols-2">
+    <div class="p-10 md:p-14 text-cream flex flex-col justify-center">
+      <h2 class="font-display text-4xl md:text-5xl font-semibold leading-tight">BBC Radio Lancashire Make a Difference 2024</h2>
+      <p class="mt-5 text-cream/75 text-lg leading-relaxed">
+        We are also proud to be Valuing Volunteers certified and a Selnet Awards 2026 finalist.
+        Thank you to our incredible volunteers and the community of South Ribble.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="https://www.youtube.com/watch?v=icA_TurmIlM" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-cream text-forest font-bold px-6 py-3 rounded-full hover:bg-sand transition">Watch the win
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </a>
+        <a href="join.html#donate" class="inline-flex items-center gap-2 bg-clay hover:bg-clayd text-white font-bold px-6 py-3 rounded-full transition">Donate</a>
+      </div>
+    </div>
+    <div class="relative min-h-[280px]">
+      <img src="assets/img/bbc-award.jpg" alt="Guardians of Nature winning the BBC Radio Lancashire award" class="absolute inset-0 w-full h-full object-cover">
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-5 pb-16">
+  <div class="text-center">
+    <p class="text-clay font-extrabold uppercase tracking-[0.16em] text-sm">With thanks to</p>
+    <h2 class="mt-3 font-display text-forest text-3xl md:text-4xl font-semibold">The people who make it possible</h2>
+    <div class="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-bark/70 font-semibold text-[15px]">
+      <span>Lancashire &amp; South Cumbria NHS FT</span><span>&middot;</span>
+      <span>Let's Grow Preston</span><span>&middot;</span>
+      <span>Progress Housing Group</span><span>&middot;</span>
+      <span>Your Housing Group</span><span>&middot;</span>
+      <span>Lancashire Wildlife Trust</span><span>&middot;</span>
+      <span>Brinscall Hall</span><span>&middot;</span>
+      <span>Outdoors for All</span><span>&middot;</span>
+      <span>Mind</span><span>&middot;</span>
+      <span>My Place, Brockholes</span><span>&middot;</span>
+      <span>Lancashire County Council</span><span>&middot;</span>
+      <span>South Ribble Borough Council</span><span>&middot;</span>
+      <span>Lancashire Police</span><span>&middot;</span>
+      <span>Pell Frischmann</span><span>&middot;</span>
+      <span>Glen Marsden Construction</span><span>&middot;</span>
+      <span>Selnet</span><span>&middot;</span>
+      <span>Kingsfold Community Centre</span><span>&middot;</span>
+      <span>Nelson &amp; Colne College</span><span>&middot;</span>
+      <span>The Co-op, Penwortham</span><span>&middot;</span>
+      <span>Penwortham in Bloom</span><span>&middot;</span>
+      <span>Plants+ (Sow &amp; Grow)</span><span>&middot;</span>
+      <span>Newgate Nurseries</span><span>&middot;</span>
+      <span>Arden Lea Nurseries</span><span>&middot;</span>
+      <span>Starbucks Hubbub Fund</span><span>&middot;</span>
+      <span>Huws Gray</span><span>&middot;</span>
+      <span>Unite Union</span><span>&middot;</span>
+      <span>Cassidy &amp; Ashton</span><span>&middot;</span>
+      <span>Community Foundation for Lancashire &amp; Merseyside</span><span>&middot;</span>
+      <span>Lancashire Adult Learning</span>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-5 pb-20 md:pb-28">
+  <div class="relative rounded-[2rem] overflow-hidden">
+    <img src="assets/img/dandelions.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-forest/70"></div>
+    <div class="relative text-center px-6 py-20 md:py-24 text-cream">
+      <h2 class="font-display text-4xl md:text-5xl font-semibold leading-tight">There's a place for you here.</h2>
+      <p class="mt-4 text-cream/85 text-lg max-w-xl mx-auto">Whether you garden, build, plant, pick litter or just want company in nature — you belong.</p>
+      <div class="mt-9 flex flex-wrap justify-center gap-4">
+        <a href="join.html" class="bg-clay hover:bg-clayd text-white font-bold px-7 py-3.5 rounded-full shadow-lift transition">Get involved</a>
+        <a href="contact.html" class="bg-cream/10 hover:bg-cream/20 text-cream border border-cream/40 font-bold px-7 py-3.5 rounded-full backdrop-blur transition">Contact us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-forest text-cream">
+  <div class="max-w-6xl mx-auto px-5 py-14 grid md:grid-cols-3 gap-10">
+    <div>
+      <div class="flex items-center gap-3">
+        <img src="assets/img/logo.png" alt="" class="h-10 w-auto bg-cream/10 rounded-lg p-1">
+        <span class="font-display font-semibold text-lg">Guardians of Nature</span>
+      </div>
+      <p class="mt-4 text-cream/70 leading-relaxed">A not-for-profit community interest company using nature to heal, connect and grow — across Penwortham and South Ribble.</p>
+      <p class="mt-4 text-sm text-cream/50 font-semibold">CIC no. 14334864</p>
+    </div>
+    <div>
+      <p class="font-bold text-sun uppercase tracking-[0.14em] text-xs">Find us</p>
+      <ul class="mt-4 space-y-3 text-cream/80">
+        <li>Open Wednesdays &amp; Fridays, 12:00 – 3:30</li>
+        <li>Alderfield Allotment, off Hill Road South<br>Penwortham, PR1 9HA</li>
+        <li><a href="https://what3words.com/arch.castle.foods" target="_blank" rel="noopener" class="underline decoration-sun/50 hover:text-sun transition">///arch.castle.foods</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-bold text-sun uppercase tracking-[0.14em] text-xs">Follow along</p>
+      <div class="mt-4 flex gap-3">
+        <a href="https://www.facebook.com/guardiansofnaturehq/" target="_blank" rel="noopener" aria-label="Facebook" class="w-11 h-11 rounded-full bg-cream/10 hover:bg-clay flex items-center justify-center transition">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.2 0-1-.1-1.9-.1-1.9 0-3.2 1.2-3.2 3.3V11H8.5v3h2.8v7h2.2z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/guardiansofnaturehq/" target="_blank" rel="noopener" aria-label="Instagram" class="w-11 h-11 rounded-full bg-cream/10 hover:bg-clay flex items-center justify-center transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+      <p class="mt-5 text-sm text-cream/60">Check Facebook before events in case of poor weather.</p>
+    </div>
+  </div>
+  <div class="border-t border-cream/10">
+    <div class="max-w-6xl mx-auto px-5 py-5 flex flex-wrap items-center justify-between gap-3 text-sm text-cream/50">
+      <p>&copy; <span id="year"></span> Guardians of Nature CIC. Together we grow.</p>
+      <p>"We do not inherit the earth from our ancestors — we borrow it from our children."</p>
+      <p>made with ❤️ by <a href="https://timmoth.com/" class="underline decoration-sun/40 hover:text-cream transition">Tim Jones</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+var menuButton = document.getElementById('menuBtn');
+var mobileMenu = document.getElementById('mobileMenu');
+function setMenuOpen(open) {
+  mobileMenu.classList.toggle('hidden', !open);
+  menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+}
+menuButton.addEventListener('click', function () {
+  setMenuOpen(menuButton.getAttribute('aria-expanded') !== 'true');
+});
+mobileMenu.addEventListener('click', function (event) {
+  if (event.target.closest('a')) setMenuOpen(false);
+});
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') setMenuOpen(false);
+});
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
